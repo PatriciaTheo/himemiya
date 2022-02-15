@@ -1,0 +1,169 @@
+*{
+    text-decoration: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ background-color: #ffad9c;
+ font-family: Georgia, 'Times New Roman', sans-serif;
+}
+
+.awal{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size:55px;
+    font-weight: bold;
+    float:left;
+    font-family: 'times new roman';
+    color: #676d80;
+}
+
+.menu{
+    float: right;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background-color:#ffece3;
+    z-index: 1;
+    border-bottom: 2px solid #676d80;
+}
+nav ul{
+    list-style-type: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: #676d80;
+    font-weight:bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section {
+    border: 5px solid white;
+    border-style: dotted;
+    background-color:#ff9791;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#kolom .decs{
+    font-size: 20px;
+    font-size: bold;
+    font-family: 'Comic Sans MS';
+    color: white;
+}
+
+h2{
+    font-family: 'Comic Sans MS';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white;
+    width: 100%;
+    line-height: 50px;
+}
+a.tombol-pink{
+    background:#ff817a;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: white;
+}
+
+a.tombol-pink:hover{
+    background: #f2a4a0;
+}
+
+p{
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+s{
+    color: white;
+    font-family: 'comic sans MS';
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+h3{
+    font-family: 'Comic Sans MS';
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    width: 100%;
+}
+
+.layout{
+    text-align: left;
+    width:100%;
+}
+
+.sample{
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic{
+    width:90%;
+    margin: 10px;
+}
+
+.pic img{
+    background-color: #ff817a;
+    border-radius: 25px;
+    width:90%;
+}
+
+.sosial{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.media{
+    background-color: #ff7e78;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+#cp{
+    text-align: left;
+    width:100%;
+    padding:50px 0px;
+    margin-top: 50px;
+}
