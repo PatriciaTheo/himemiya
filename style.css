@@ -10,6 +10,7 @@ body{
 }
 
 .awal{
+    padding-left: 20px;
     width: 1100px;
     margin: auto;
     position: relative;
@@ -20,8 +21,9 @@ body{
     font-weight: bold;
     float:left;
     font-family: 'times new roman';
-    color: #676d80;
+    color: #ff7f63;
 }
+
 
 .menu{
     float: right;
@@ -60,9 +62,11 @@ nav ul li a{
 
 nav ul li a:hover{
     text-decoration: underline;
+    color:#ff7e78;
 }
 
 section {
+    padding-left: 20px;
     border: 5px solid white;
     border-style: dotted;
     background-color:#ff9791;
@@ -73,11 +77,13 @@ section {
 }
 
 #kolom{
+    padding-left: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 #kolom .decs{
+    padding-left: 20px;
     font-size: 20px;
     font-size: bold;
     font-family: 'Comic Sans MS';
@@ -115,6 +121,7 @@ s{
     font-family: 'comic sans MS';
     padding-right: 30px;
     font-size: 20px;
+    padding-bottom: 10px;
 }
 
 h3{
@@ -125,12 +132,23 @@ h3{
     width: 100%;
 }
 
+h4{
+    padding-left: 20px;
+    font-family: 'Comic Sans MS';
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+}
+
 .layout{
+    padding-left: 20px;
     text-align: left;
     width:100%;
 }
 
 .sample{
+    padding-left: 20px;
     width:100%;
     position: relative;
     display: flex;
@@ -149,17 +167,57 @@ h3{
 }
 
 .sosial{
+    padding: 50px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
 
 .media{
+    padding: 40px;
     background-color: #ff7e78;
     border-radius: 10px;
     margin: 10px;
 }
 
+.pl{
+    padding: 40px;
+    background-color: #ff7e78;
+    border: #ffece3;
+    border: 5px solid #ffdbd4;
+    border-style: dashed;
+    margin: 10px;
+}
+
+a.tombol-merah{
+    background:#ed5d4a;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 5px 20px;
+    color: white;
+}
+
+a.tombol-merah:hover{
+    background: #f2a4a0;
+}
+
+.pict{
+    padding-left: 90px;
+    width:70%;
+}
+
+.pict img{
+    padding-left: 30px;
+    width:70%;
+}
+a.sosialmedia{
+    color: white;
+}
+
+a.sosialmedia:HOVER{
+    color: #d13824;
+    text-decoration: underline;
+}
 
 #cp{
     text-align: left;
