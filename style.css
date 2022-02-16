@@ -91,6 +91,7 @@ section {
 }
 
 h2{
+    padding: 10px;
     font-family: 'Comic Sans MS';
     font-weight: 800;
     font-size: 45px;
@@ -117,6 +118,7 @@ p{
 }
 
 s{
+    padding: 10px;
     color: white;
     font-family: 'comic sans MS';
     padding-right: 30px;
@@ -125,6 +127,7 @@ s{
 }
 
 h3{
+    padding: 10px;
     font-family: 'Comic Sans MS';
     font-weight: 800;
     font-size: 35px;
@@ -133,6 +136,7 @@ h3{
 }
 
 h4{
+    padding: 10px;
     padding-left: 20px;
     font-family: 'Comic Sans MS';
     font-weight: 800;
